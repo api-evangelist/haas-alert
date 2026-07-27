@@ -1,8 +1,29 @@
 aid: haas-alert
 name: HAAS Alert
-description: HAAS Alert is a company surfaced as a portfolio company of techstars and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  HAAS Alert operates Safety Cloud, a connected-vehicle safety platform that delivers
+  real-time digital alerts to nearby motorists about active emergency responses, roadside
+  hazards, work zones, stopped vehicles, and slow-moving equipment. Using vehicle-to-everything
+  (V2X) and cellular messaging, Safety Cloud gives drivers up to roughly 30 seconds of advance
+  warning to help reduce collisions with first responders, tow operators, and roadway workers.
+  HAAS Alert integrates with telematics platforms, fleet manufacturers, OEM vehicles, in-car
+  navigation (including Waze), and roadway infrastructure to form a large connected-vehicle
+  alerting ecosystem. The company is a Techstars portfolio company. This profile was enriched
+  from HAAS Alert's public web surface; no public developer API, OpenAPI specification, or SDKs
+  were found at the time of enrichment.
 url: https://raw.githubusercontent.com/api-evangelist/haas-alert/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/65ba9670d732a9fcbfe647cf/65c816a67168deba63445df5_haas-favicon.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,9 +32,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Connected Vehicle
+- Road Safety
+- Emergency Response
+- Fleet Telematics
+- V2X
+- Automotive
+- Public Safety
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +49,26 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: TrustCenter
+  url: security/haas-alert-trust-center.yml
+- type: Compliance
+  url: https://haasalert.com/trust-center
+- type: DomainSecurity
+  url: security/haas-alert-domain-security.yml
+- type: Integrations
+  url: https://haasalert.com/integrations
+- type: Support
+  url: https://support.haasalert.com/help
+- type: Pricing
+  url: https://haasalert.com/pricing-public-safety
+- type: Login
+  url: https://safetycloud.haasalert.com
+- type: Blog
+  url: https://haasalert.com/news
 - type: Website
   url: https://haasalert.com/
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

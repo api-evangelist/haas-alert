@@ -1,0 +1,26 @@
+generated: '2026-07-19'
+method: searched
+source: https://haasalert.com/trust-center
+url: https://haasalert.com/trust-center
+certifications:
+- SOC 2 Type 1
+- SOC 2 Type 2
+- SOC 3
+- ISO/IEC 27001
+- ISO 9001
+- GDPR
+- TX-RAMP
+- Cyber Essentials
+security_contact: security@haasalert.com
+evidence:
+- source: https://haasalert.com/trust-center
+  keywords:
+  - soc 2 type 1
+  - soc 2 type 2
+  - soc 3
+  - iso/iec 27001
+  - iso 9001
+  - gdpr
+  - tx-ramp
+  - cyber essentials
+  - trust center
