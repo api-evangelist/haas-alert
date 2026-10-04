@@ -53,6 +53,7 @@ tags:
 - V2X
 - Automotive
 - Public Safety
+- Telematics
 tags_raw:
 - Company
 - Connected Vehicle
@@ -62,6 +63,7 @@ tags_raw:
 - V2X
 - Automotive
 - Public Safety
+- Telematics
 apis: []
 maintainers:
 - FN: Kin Lane
